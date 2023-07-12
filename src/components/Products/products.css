@@ -1,0 +1,22 @@
+.products-container{
+    height: 100%;
+}
+
+.product-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 1em;
+}
+.noproducts-message{
+    width: 100%;
+    text-align: center;
+}
+
+
+/* margin: 5px 5px 5px 5px -> top right bottm left
+padding:  5px 5px 5px 5px -> top right bottm left
+
+margin: 5px 10px -> top&bottom left&right
+
+margin: 1em -> top&right&bottom&left */

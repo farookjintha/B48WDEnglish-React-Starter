@@ -1,6 +1,11 @@
+import Card from "../Card/Card";
+
 const Profile = () => {
     return (
-        <div>Profile</div>
+        <div>
+            <div>Profile</div>
+            <Card content={'Card in Profile'}/>
+        </div>
     )
 }
 

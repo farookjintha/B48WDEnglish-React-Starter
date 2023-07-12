@@ -1,3 +1,7 @@
 .footer{
-    color: blue;
+    background-color: beige;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

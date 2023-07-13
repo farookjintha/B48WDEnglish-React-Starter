@@ -6,21 +6,25 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Profile from './components/Profile/Profile';
 import Products from './components/Products/Products';
+import ClassComponent from './components/Components/ClassComponent';
 
 
 function App() {
- 
-
 
 // JS Functionalities
 
   return (
     <div className="App">
       <Header />
-      <Products />
+      {/* <Products /> */}
+      <ClassComponent />
       <Footer/>
     </div>
   );
 }
 
 export default App;
+
+
+// NPM -> Node Package Manager -> package/modules/libraries -> npm install <pacakge-name>
+//NPX - Node Package Extensives. -> to populate all the dependencies and files needed to run the app basically.

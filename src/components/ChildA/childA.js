@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from 'react'; //Only in FC
 
 const ChildA = (props) => {
 

@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import Profile from './components/Profile/Profile';
 import Products from './components/Products/Products';
 import ClassComponent from './components/Components/ClassComponent';
+import FunctionalComponent from './components/Components/FunctionalComponent';
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
     <div className="App">
       <Header />
       {/* <Products /> */}
-      <ClassComponent />
+      {/* <ClassComponent /> */}
+      <FunctionalComponent />
       <Footer/>
     </div>
   );
